@@ -1,5 +1,25 @@
 # To-Do-List-Refractoring
 
+COMPANY : CODTECH IT SOLUTIONS
+
+NAME : ANSH GUPTA
+
+INERN ID : CTIS3792
+
+DOMAIN : SOFTWARE DEVELOPMENT
+
+DURATION : 8 WEEKS
+
+MENTOR : NEELA SANTOSH
+
+PROJECT DESCRIPTION: This project is a refactored and enhanced To-Do List web application developed to improve the structure, performance, and usability of an existing open-source project from GitHub. The original application allowed users to add, complete, and delete tasks within a single list. During the refactoring process, the codebase was reorganized to improve readability, maintainability, and overall efficiency without altering the core functionality.
+
+Several new features were implemented to enhance the user experience. The application now supports multiple to-do lists, allowing users to organize tasks into different categories. The user interface was redesigned with a modern card-based layout, improved buttons, and better visual structure. A Dark Mode / Light Mode toggle was also introduced to provide a customizable and comfortable viewing experience.
+
+Additionally, the JavaScript logic was optimized using cleaner event handling and reusable functions, which improves performance and scalability. The refactored version demonstrates how existing code can be improved through structured development practices, resulting in a more efficient, scalable, and user-friendly task management application.
+
+#OUTPUT:
+
 
 
 # Code Refactoring and Performance Optimization Report
