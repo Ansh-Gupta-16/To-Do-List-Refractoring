@@ -20,15 +20,23 @@ Additionally, the JavaScript logic was optimized using cleaner event handling an
 
 #OUTPUT:
 
+Before Refractoring :
+<img width="1908" height="874" alt="Image" src="https://github.com/user-attachments/assets/a03232f3-4b2a-4827-beef-6d756a449ef6" />
 
+<img width="1906" height="871" alt="Image" src="https://github.com/user-attachments/assets/ca9b5d37-b332-4f6a-bcb0-3a81084bf2e8" />
+
+After Refractoring :
+<img width="1910" height="872" alt="Image" src="https://github.com/user-attachments/assets/fc0a5735-882b-4c2e-86e8-5557ee2a96ea" />
+
+<img width="1912" height="871" alt="Image" src="https://github.com/user-attachments/assets/9d08c6b3-aefa-45c3-829a-7e9abc180a70" />
+
+<img width="1913" height="865" alt="Image" src="https://github.com/user-attachments/assets/2b41a160-7278-4194-ad43-9ca2c01b3fd3" />
 
 # Code Refactoring and Performance Optimization Report
 
 **Project:** To-Do List Web Application
 **Platform:** GitHub
 **Technologies Used:** HTML, CSS, JavaScript, jQuery
-
----
 
 # 1. Introduction
 
@@ -37,8 +45,6 @@ This project focuses on refactoring and optimizing an open-source To-Do List web
 However, the initial implementation had limited scalability, minimal UI features, and lacked support for multiple task lists. The goal of this refactoring process was to improve the application's readability, usability, maintainability, and performance while preserving its core functionality.
 
 The project was refactored by restructuring the code, improving UI design, introducing modern development practices, and implementing additional features such as multiple to-do lists and dark/light mode.
-
----
 
 # 2. Problems in the Original Code
 
@@ -67,8 +73,6 @@ The original implementation contained several issues:
 
 * The structure made it difficult to extend the project with additional features.
 
----
-
 # 3. Refactoring Changes Implemented
 
 The following improvements were made during the refactoring process.
@@ -79,14 +83,12 @@ The following improvements were made during the refactoring process.
 * Improved variable naming for readability.
 * Reduced duplicated code by introducing reusable functions.
 
-### Impact
+# Impact
 
 * Improved code readability and maintainability.
 * Reduced complexity for future development.
 
----
-
-## 3.2 Multiple To-Do Lists Feature
+# 3.2 Multiple To-Do Lists Feature
 
 The application was modified to allow users to create multiple independent task lists.
 
@@ -101,8 +103,6 @@ Users can now:
 * Improved scalability of the application.
 * Enhanced productivity features for users.
 * Better organization of tasks.
-
----
 
 ## 3.3 UI and Layout Improvements
 
@@ -119,8 +119,6 @@ Enhancements include:
 * Improved user experience.
 * Increased usability and accessibility.
 
----
-
 ## 3.4 Dark Mode and Light Mode
 
 A theme toggle button was implemented to allow users to switch between light and dark themes.
@@ -130,8 +128,6 @@ A theme toggle button was implemented to allow users to switch between light and
 * Improved user comfort during long usage sessions.
 * Modern UI feature commonly used in productivity applications.
 
----
-
 ## 3.5 Improved Event Handling
 
 The application now uses delegated event listeners to handle dynamically created elements such as tasks and lists.
@@ -140,8 +136,6 @@ The application now uses delegated event listeners to handle dynamically created
 
 * Prevents unnecessary event bindings.
 * Improves performance when handling dynamically added elements.
-
----
 
 # 4. Performance Improvements
 
@@ -159,8 +153,6 @@ Overall performance improvements include:
 * More efficient event handling.
 * Improved code maintainability.
 
----
-
 # 5. New Features Added
 
 The refactored application now includes:
@@ -174,8 +166,6 @@ The refactored application now includes:
 * Responsive UI Design
 
 These features significantly enhance the application's usability and flexibility.
-
----
 
 # 6. Conclusion
 
